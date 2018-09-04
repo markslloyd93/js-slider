@@ -4,25 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>JS Image Slider</title>
+  <title>Full Screen JS Image Slider</title>
 
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div class="main-banner" id="main-banner">
-    <div class="imgbanbtn imgbanbtn-prev" id="imgbanbtn-prev"></div>
-    <div class="imgban" id="imgban3">
-
+  <div class="wrap">
+  <div id="arrow-left" class="arrow"></div>
+  <div id="slider">
+    <div class="slide slide1">
+      <div class="slide-content">
+        <img src="img/skater.jpg" alt="slide 1">
+      </div>
     </div>
-    <div class="imgban" id="imgban2">
-
+    <div class="slide slide2">
+      <div class="slide-content">
+        <img src="img/night-sky.jpg" alt="slide 2">
+      </div>
     </div>
-    <div class="imgban" id="imgban1">
-
+    <div class="slide slide3">
+      <div class="slide-content">
+        <img src="img/travel.jpg" alt="slide 3">
+      </div>
     </div>
-    <div class="imgbanbtn imgbanbtn-next" id="imgbanbtn-next"></div>
-  </div><!--close main banner-->
 
-  <script src="js/main.js"></script>
+    <div class="slide slide4">
+      <div class="slide-content">
+        <img src="img/puppy.jpg" alt="slide 4">
+      </div>
+    </div>
+  </div>
+  <div id="arrow-right" class="arrow"></div>
+</div><!-- close wrap -->
+
+  <script src="js/test.js"></script>
 </body>
 </html>
